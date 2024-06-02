@@ -156,3 +156,16 @@ class HomeScreen extends StatelessWidget {
       );
    }
 }
+//
+//////// for third solution test...
+// final fetchUserData = FetchUserData();
+// final userIds = [1, 2, 3, 4, 5];
+//
+// for (final userId in userIds) {
+// final userData = await fetchUserData.getUserData(userId);
+// if (userData != null) {
+// print('User ${userData.id}: ${userData.firstName} ${userData.lastName}');
+// } else {
+// print('User $userId not found');
+// }
+// }
